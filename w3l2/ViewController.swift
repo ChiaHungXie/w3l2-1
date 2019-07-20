@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func segmentAction(_ sender: UISegmentedControl) {
-        
+        print(sender.selectedSegmentIndex)
     }
     
 }
